@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to right, #fbd3e9, #bb377d);
+  margin: 0;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #5a1a5d;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-style: italic;
+  color: #3c0a3c;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #5a1a5d;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3c0a3c;
+}
